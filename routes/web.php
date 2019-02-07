@@ -11,6 +11,14 @@
 |
 */
 
+/*
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('page', function(){
+	return 'первая страница page в Laravel';
+});
+*/
+
+Route::get('/', 'IndexController@index');
