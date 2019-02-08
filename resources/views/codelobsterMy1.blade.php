@@ -1,33 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
+@extends('layouts.site')
 
-    <title>Jumbotron Template for Bootstrap</title>
+@section('content')
 
-    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/jumbotron.css') }}" rel="stylesheet">
-
-  </head>
-
-  <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <ul id="navbar" class="menu">
-                    <li><a href="https://laravel.com/docs">Documentation</a></li>
-                    <li><a href="https://laracasts.com">Laracasts</a></li>
-                    <li><a href="https://laravel-news.com">News</a></li>
-                    <li><a href="https://forge.laravel.com">Forge</a></li>
-                    <li><a href="https://github.com/laravel/laravel">GitHub</a></li>
-        </ul><!--/.navbar-collapse -->
-      </div>
-    </nav>
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
+<!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
         <h1>{{ $head }}</h1>
@@ -57,5 +32,4 @@
       </footer>
     </div> <!-- /container -->
 
-  </body>
-</html>
+    @endsection
