@@ -21,4 +21,6 @@ Route::get('page', function(){
 });
 */
 
+Route::get('page', 'IndexController@indexPage');
+
 Route::get('/', 'IndexController@index');
