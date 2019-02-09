@@ -15,7 +15,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">{{ $header}}</a>
+          <a class="navbar-brand" href="#">Project</a>
         </div>
         <ul id="navbar" class="menu">
                     <li><a href="https://laravel.com/docs">Documentation</a></li>

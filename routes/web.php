@@ -24,3 +24,6 @@ Route::get('page', function(){
 Route::get('page', 'IndexController@indexPage');
 
 Route::get('/', 'IndexController@index');
+
+//->name('articleShow') псевдоним для обращения к маршруту для формирования ссылок к и обращений к этому маршруту
+Route::get('article/{id}', 'IndexController@show')->name('articleShow');
